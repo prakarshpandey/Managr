@@ -3,10 +3,7 @@ module.exports = {
   "parser": "babel-eslint",
   "plugins": [
     "standard",
-    "jsx-a11y",
-    "import",
-    "promise",
-    "react"
+    "jsx-a11y"
   ],
   "rules": {
     "no-unused-vars": 0
