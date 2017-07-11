@@ -2,7 +2,7 @@ import React from 'react'
 import { TextInput, View, Text, Platform } from 'react-native'
 
 export class Input extends React.Component {
-  render() {
+  render () {
     return (
       <View style={styles.containerStyle}>
         <Text style={styles.labelStyle}>{this.props.label}</Text>
